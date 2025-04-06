@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+  }
+
+  .container {
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+  }
+
+  h4 {
+    background: linear-gradient(to right, #00796B, #26a69a);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+  label {
+    color: #00796B !important;
+    font-weight: 600;
+  }
+
+  select:required:invalid {
+    color: gray;
+  }
+
+  button.btn {
+    background-color: #00796B;
+    transition: background-color 0.3s ease;
+  }
+
+  button.btn:hover {
+    background-color: #004d40;
+  }
+
+  .resultado {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #004d40;
+  }
